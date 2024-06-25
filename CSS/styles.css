@@ -28,19 +28,20 @@ justify-content: center;
 }
 
 h1{
-    margin-bottom: 3%;
+    margin-top: 25px;
     margin: 0.5rem;
     text-align: center;
     font-family: 'Cabin', sans-serif;
     font-weight: bolder;
-    color: #9127C9;
-    margin-top: 25px;
+    color: #F3F4F5;
+    margin-bottom: 3%;
 }
 
 h2{
     margin: 0.5rem;
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    font-size: medium;
     color: #9127C9;
     margin-top: 25px;
 }
@@ -78,16 +79,26 @@ h2{
     height: 3.5rem;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 3%;
+}
+
+h3{
+    margin: 0.5rem;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
+    color: #F3F4F5;
+    margin-bottom: 2%;
 }
 
 .Borda{
-    margin-top: 5%;
+    margin-top: 5px;
     background-color:rgba(31, 156, 266, 15%);
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
-    border-radius: 60px;
+    height:min-content;
+    border-radius: 50%;
 }
 
 .imagem2{
